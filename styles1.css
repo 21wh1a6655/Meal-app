@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #f2f2f2; /* Background color for the body */
+    color: #333; /* Text color for better readability */
+}
+
+#heading {
+    margin-top: 170px;
+}
+
+#nav {
+    box-shadow: rgba(60, 60, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.food-card {
+    display: flex;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px; /* Adjust the border-radius for rounder corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.food-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px; /* Adjust border-radius for image */
+}
+
+.btn {
+    background-color: #FF5F6D;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0 0 20px 20px; /* Adjust border-radius for button */
+}
